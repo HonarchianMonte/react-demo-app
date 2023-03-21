@@ -1,0 +1,13 @@
+.page {
+  background-color: #ddd;
+  border-radius:10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 110vh;
+  margin:auto;
+  max-width:1000px;
+  padding: 50px;
+
+  @media(max-width: 675px) {
+    height: auto;
+  }
+}
