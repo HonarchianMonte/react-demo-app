@@ -28,7 +28,7 @@ useEffect(() => {
   }, 250);
 
   return () => clearTimeout();
-}, [user]);
+}, [id, user]);
 
 //destructuring
 const {avatar, first_name, last_name} = !loading && user.data;
