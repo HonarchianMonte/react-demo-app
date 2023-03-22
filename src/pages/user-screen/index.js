@@ -27,7 +27,7 @@ useEffect(() => {
     !user && fetchUserData();
   }, 250);
 
-  return () => clearTimeout();
+  return () => clearTimeout(timer);
 }, [id, user]);
 
 //destructuring
